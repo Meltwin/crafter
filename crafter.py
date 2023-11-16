@@ -22,7 +22,9 @@ def test_params(
     clock_values: list[float], input_trsfrt: list[float], input_names: list[str]
 ):
     fig, ax = plt.subplots(len(clock_values), len(input_trsfrt))
-    fig.suptitle("Input / Ouput analysis of the craft", fontsize=34)
+    fig.suptitle(
+        "Input / Ouput analysis of the crafter \nBy Meltwin - 2023", fontsize=34
+    )
 
     def next_params(
         axs, clock_list: list[float], input_list: list[float], input_name: list[str]
