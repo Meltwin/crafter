@@ -25,7 +25,7 @@ $ python3 crafter.py
 You can test any situation with this script. At the end of the file you will find the lines to configures what the script has to show:
 
 ```python
-T = lambda x: 2 * x  # RedstoneTicks
+RT = lambda x: 2 * x  # RedstoneTicks
 GT = lambda x: x  # GameTicks
 
 HOPPER_MAX_TRSFRT = RT(4)  # GT/item
